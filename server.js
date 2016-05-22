@@ -84,5 +84,5 @@ updateDB();
 app.use(express.static('app'));
 
 app.listen(3000, function(){
-    console.log('Express server listening on port 3000');
+    console.log('Express server listening on 127.0.0.1:3000');
 });
